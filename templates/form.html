@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style type="text/css">
+
+
+</style>
+</head>
+<body>
+<h2>Registration Form</h2>
+<form method='post' action="">
+    {% csrf_token %}
+
+    <input type="text" name="username" placeholder="Enter the Name"><br>
+    <input type="date" name="date" placeholder="Enter the date of birth"><br>
+    <input type="text" name="age" placeholder="age"><br>
+    <tr>
+         <td>
+               Gender:
+                <td>
+                     <input type="radio" name="Gender" value="Male">Male
+                     <input type="radio" name="Gender" value="Female">Female
+
+    </tr>
+<br>
+    <input type="text" name="phone no" placeholder="Enter the phone no"><br>
+    <input type="email" name="email" placeholder="Enter the email id"><br>
+    <input type="text" name="address" placeholder="Enter the address"><br>
+
+
+    <table>
+        <tr>
+        <td>
+             branches:
+        </td>
+        <td>
+    <select>
+    <option value="c">Palakkad</option>
+        <option value="a">Alathur</option>
+        <option value="me">Kottayi</option>
+        <option value="c">Perigottukurishi</option>
+        <option value="a">Mannarkad</option>
+    </select>
+     <br>
+            <select>
+            <option value="a">Trivandram</option>
+            <option value="a">Aruvikkara</option>
+            <option value="a">Poojapura</option>
+            <option value="a">Mailkuzhi</option>
+            <option value="a">Nettatinkara</option>
+        </select>
+        <br>
+             <select>
+                 <option value="a">Kannur</option>
+                 <option value="a">Thalasseri</option>
+                 <option value="a">Payyanur</option>
+                 <option value="a">iritty</option>
+                 <option value="a">Pannur</option>
+             </select>
+        <br>
+            <select>
+                 <option value="a">Trissur</option>
+                 <option value="a">Challakudi</option>
+                 <option value="a">Chavakkad</option>
+                 <option value="a">kodugallur</option>
+                 <option value="a">Kunnamkulam</option>
+             </select>
+        <br>
+            <select>
+                 <option value="a">Kollam</option>
+                 <option value="a">Pathanapuram</option>
+                 <option value="a">Punalur</option>
+                 <option value="a">Kunnathur</option>
+                 <option value="a">Kottarakara</option>
+             </select>
+        <br>
+
+
+        </td>
+        </tr>
+    </table>
+          </td>
+              Purpose:
+      </td>
+
+    <select>
+            <option value="c">Seving accond</option>
+            <option value="a">Current accond</option>
+            <option value="me">Cash accond</option>
+    </select>
+     <br>
+        <tr>
+            <td>
+                 Materials provide:
+            </td>
+        </tr>
+        <input type="checkbox" name="radio" placeholder="debit card">debit card
+        <input type="checkbox" name="username" placeholder="credit card">credit card
+        <input type="checkbox" name="username" placeholder="cheque book">cheque book
+        <br>
+        <input type="submit"><br>
+        <button onclick="logout()">Logout</button>
+        <br>
+        <a href="#">Home</a>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
